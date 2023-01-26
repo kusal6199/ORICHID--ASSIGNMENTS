@@ -28,10 +28,7 @@ int main(){
 
         default : printf("not a valid operator");
     }
-    
-
-    
-
+     
 ;
     return 0;
 
