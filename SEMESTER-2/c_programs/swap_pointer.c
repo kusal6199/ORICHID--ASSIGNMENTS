@@ -6,13 +6,13 @@ void swap(int *a, int *b){
 }
 void main()
 {
-    int *ptr,*pptr;
-    int a,b;
+    // int *ptr,*pptr;
+    int c,d;
     printf("enter a and b: ");
-    scanf("%d%d",&a,&b);
+    scanf("%d%d",&c,&d);
    
-    swap(&a,&b);
+    swap(&c,&d);
     
    
-    printf("\na=%d and b=%d",a,b);
+    printf("\na=%d and b=%d",c,d);
 }
