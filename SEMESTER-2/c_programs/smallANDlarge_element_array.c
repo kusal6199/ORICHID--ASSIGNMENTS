@@ -2,10 +2,12 @@
 void main()
 {
     int i,n,g,s,temp;
-    printf("enter the size of array: ");
+    printf("Program Name: Find grater and lest element inside array");
+    printf("\nProgram Author: Kushal Kadel");
+    printf("\nenter the size of array: ");
     scanf("%d",&n);
     int array[n];
-    printf("entr the elements of array: ");
+    printf("entr the elements of array:\n");
 
     for ( i = 0; i < n; i++)
     {
