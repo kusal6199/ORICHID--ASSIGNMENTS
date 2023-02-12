@@ -23,4 +23,5 @@ void main()
     }
    
     printf("the second max num. is %d",max2);
+    
 }
