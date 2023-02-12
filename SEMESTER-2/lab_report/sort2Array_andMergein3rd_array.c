@@ -2,7 +2,9 @@
 void main()
 {
 	int n,m,i,k,l,j;
-	printf("enter the size of 1st and 2nd array resp:\n");
+	printf("program title: to sort 2 array and merge them in next array");
+	printf("\nauthor: Kushal Kandel");
+	printf("\nenter the size of 1st and 2nd array resp:\n");
 	scanf("%d%d",&n,&m);
 	int a[n],b[m];
 
@@ -68,6 +70,6 @@ void main()
     }
 
     printf("The merged sorted array: ");
-    for(int i = 0; i <o; i++)
+    for(i = 0; i <o; i++)
     printf("%d ", c[i]);    
 }
