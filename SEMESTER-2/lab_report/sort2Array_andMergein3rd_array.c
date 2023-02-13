@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int n,m,i,k,l,j;
+	int n,m,i,j;
 	printf("program title: to sort 2 array and merge them in next array");
 	printf("\nauthor: Kushal Kandel");
 	printf("\nenter the size of 1st and 2nd array resp:\n");
@@ -68,6 +68,31 @@ void main()
     {
         c[i+n]=b[i];
     }
+     for ( i = 0; i < o-1; i++)
+    {
+        for ( j = 0; j < o-i-1; j++)
+        {
+           if (c[j]>c[j+1])
+           {
+            int temppp = c[j];
+	        c[j] = c[j + 1];
+	        c[j + 1] = temppp;
+           }
+        }
+    }
+    for ( i = 0; i < o-1; i++)
+    {
+        for ( j = 0; j < o-i-1; j++)
+        {
+           if (c[j]>c[j+1])
+           {
+            int temppp = c[j];
+	        c[j] = c[j + 1];
+	        c[j + 1] = temppp;
+           }
+        }
+    }
+    
 
     printf("The merged sorted array: ");
     for(i = 0; i <o; i++)
