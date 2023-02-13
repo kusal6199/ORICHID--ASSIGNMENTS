@@ -80,20 +80,6 @@ void main()
            }
         }
     }
-    for ( i = 0; i < o-1; i++)
-    {
-        for ( j = 0; j < o-i-1; j++)
-        {
-           if (c[j]>c[j+1])
-           {
-            int temppp = c[j];
-	        c[j] = c[j + 1];
-	        c[j + 1] = temppp;
-           }
-        }
-    }
-    
-
     printf("The merged sorted array: ");
     for(i = 0; i <o; i++)
     printf("%d ", c[i]);    
