@@ -2,7 +2,9 @@
 void main()
 {
     int n,i,p,q=0;
-    printf("enter array size: ");
+    printf("program title: Program in C to check if entered number is in the array or not.");
+	printf("\nauthor: Kushal Kandel");
+    printf("\nenter array size: ");
     scanf("%d",&n);
     int a[n];
     printf("enter array elements: ");
