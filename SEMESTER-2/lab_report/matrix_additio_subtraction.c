@@ -14,7 +14,7 @@ int main() {
       printf("Enter element a%d%d: ", i + 1, j + 1);
       scanf("%d", &a[i][j]);
     }
-
+  
   printf("Enter elements of 2nd matrix:\n");
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
@@ -25,6 +25,7 @@ int main() {
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
       sum[i][j] = a[i][j] + b[i][j];
+      
     }
 
   for (i = 0; i < r; ++i)
@@ -42,7 +43,7 @@ int main() {
       }
     }
 
-    printf("\difference of two matrices: \n");
+    printf("difference of two matrices: \n");
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
       printf("%d   ", diff[i][j]);
