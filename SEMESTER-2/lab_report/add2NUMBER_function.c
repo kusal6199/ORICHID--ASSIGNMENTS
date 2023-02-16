@@ -13,7 +13,7 @@ int main()
   printf("the sum is %d",reasult);
   
  
-
+return 0;
 }
 
 int addnumber(int x,int y){
