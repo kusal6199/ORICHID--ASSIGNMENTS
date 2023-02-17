@@ -1,18 +1,33 @@
 #include<stdio.h>
-struct student{
-    int roll;
-    char name[20];
-    int markx;
+struct student
+{
+   int roll;
+   char name[10];
+   int age;
 };
-struct student s;
+
+void structure(int roll, char name[10],int age);
 
 void main(){
-    struct student *ptr=&s;
-    printf("enter the roll: ");
-    scanf("%d",&s.roll);
-    printf("the roll no is %d",ptr->roll);
-    printf("\nenter the name: ");
-    scanf("%s",s.name);
-    printf("the name is %s",ptr->name);
+    int roll;
+    char name[10];
+    int age;
+    structure(roll,name,age);
+
+
+}
+
+void structure(int roll, char name[10],int age)
+{
+    printf("enter roll: ");
+    scanf("%d",&roll);
+    printf("the roll is: %d",roll);
+    printf("\nenter name: ");
+    scanf("%s",name);
+    printf("the name is: %s",name);
+    printf("\nenter age: ");
+    scanf("%d",&age);
+    printf("the age is: %d",age);
     
+
 }
