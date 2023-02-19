@@ -4,7 +4,11 @@ void reverse(char str[]);
 
 int main() {
     char str[100];
+    printf("program name: Program in C to reverse string using function.\n");
+    printf("Author: Kushal Kadel\n");
+   
     printf("Enter a string: ");
+    
     scanf("%s", str);
 
     reverse(str);
