@@ -15,7 +15,7 @@ void main()
         printf("after conversion:%c",*ptr);
         }
      else if (*ptr>='A' && *ptr<='Z'){
-        *ptr=*ptr-32;
+        *ptr=*ptr+32;
         printf("after conversion:%c",*ptr);
      }
     // else
