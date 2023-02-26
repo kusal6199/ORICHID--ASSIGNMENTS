@@ -5,13 +5,13 @@ int main() {
     FILE *kushal;
     char ch;
 
-    example= fopen("D:\ORCHID ASSIGNMNMENTS\SEMESTER-2\lab_report\example.txt", "r"); 
-    kushal = fopen("E:\kushal.txt.txt", "w"); 
+    example= fopen("example.txt", "r"); 
 
     if (example == NULL) {
         printf("Error: Source file cannot be opened.\n");
         return 1;
     }
+    kushal = fopen("kushal.txt", "w"); 
 
     if (kushal == NULL) {
         printf("Error: Destination file cannot be opened.\n");
