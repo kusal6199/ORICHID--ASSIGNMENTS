@@ -7,5 +7,6 @@ void main(){
     printf("sunar mausam");
     printf("kushal kandel");
     printf("kushal kandel");
+    printf("kushal kandel");
 
 }
