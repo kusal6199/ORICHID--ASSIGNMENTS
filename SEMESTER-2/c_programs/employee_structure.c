@@ -10,7 +10,7 @@ struct employee
     char address[30];
 };
 
-int main()
+void main()
 {
     int i,j;
     struct employee *temp;
@@ -49,5 +49,5 @@ int main()
         printf("\naddress: %s",ptr[i]->address);
         printf("\n");  
     }
-    return 0;
+    // return 0;
 }
