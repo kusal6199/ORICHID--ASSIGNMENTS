@@ -9,4 +9,5 @@ int main(){
     }
     fprintf(fp,"welcome to BCA");
     printf("File created and written successfully.\n");
+    printf("done");
 }
