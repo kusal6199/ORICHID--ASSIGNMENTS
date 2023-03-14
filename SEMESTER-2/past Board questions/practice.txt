@@ -1,0 +1,1 @@
+name = Ram	id = 12	salary = 14000
