@@ -16,7 +16,7 @@ int main(){
     for(i=0;i < length ;i++){
         if(string1[i] != string1[length-i-1]){
             flag++;
-            break;
+            // break;
            }
         }
     
