@@ -11,4 +11,5 @@ int main(){
     printf("Ritesh jung lama");
     printf("Ashok");
     printf("Ashok");
+    printf("Ashok");
 }
