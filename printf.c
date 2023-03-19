@@ -16,4 +16,11 @@ int main(){
     printf("Ashok");
     printf("Ashok");
     printf("Ashok");
+    printf("Ashok");
+    printf("Ashok");
+    printf("Ashok");
+    printf("Ashok");
+    printf("Ashok");
+    printf("Ashok");
+    printf("Ashok");
 }
