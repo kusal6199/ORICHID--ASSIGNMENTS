@@ -5,6 +5,9 @@ int main(){
     printf("mausam sunar");
     printf("sunar mausam");
     printf("sunar mausam");
+    printf("mausam sunar");
+    printf("sunar mausam");
+    printf("sunar mausam");
    
     printf("Ashok");
 }
