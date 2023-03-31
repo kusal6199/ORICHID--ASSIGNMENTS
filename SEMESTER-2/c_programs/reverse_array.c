@@ -4,13 +4,15 @@ void array(int arr[],int n)
 {
     int temp;
     int i;
-    for ( i = 0; i < n; i++)
+   
+    for ( i = n-1; i >=0; i--)
     {
-        int temp=arr[n-1];
-
+        printf("%d\n",arr[i]);
+        
     }
-    
 }
+    
+
 int main()
 {
     int n,i;
@@ -23,12 +25,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     printf("reverse array is: \n");
-    for ( i = n-1; i >=0; i--)
-    {
-        printf("%d\n",arr[i]);
-        
-    }
-    
+    array(arr,n);
 
     
 
