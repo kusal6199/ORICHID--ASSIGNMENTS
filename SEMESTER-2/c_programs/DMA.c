@@ -30,6 +30,7 @@ int main()
         
     }
     printf("the max is %d\nmin is %d",max,min);
+    free(ptr);
     
     return 0;
 
