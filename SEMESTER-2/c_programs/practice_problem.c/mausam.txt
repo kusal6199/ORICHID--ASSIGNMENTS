@@ -1,0 +1,3 @@
+Name:kushal
+Id:13
+Salary:120000
