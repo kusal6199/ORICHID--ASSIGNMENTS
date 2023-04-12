@@ -14,7 +14,7 @@ int main() {
     {
         ptr[i]=&p[i];
         printf("name of %dno. player: ",i+1);
-        scanf("%s",ptr[i]->name);
+        scanf("%s",(*ptr[i]).name);
         printf("run of %dno. player: ",i+1);
         scanf("%d",&ptr[i]->run);
         printf("wicket of %dno. player: ",i+1);

@@ -28,6 +28,8 @@ int main(){
     printf("kushal kandel");
     printf("kushal kandel");
     printf("Ritesh jung lama");
+    printf("kushal kandel");
+    printf("kushal kandel");
    
     
 }
