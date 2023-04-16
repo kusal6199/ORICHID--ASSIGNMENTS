@@ -36,6 +36,8 @@ int main(){
     printf("kushal kandel");
     printf("kushal kandel");
     printf("kushal kandel");
+    printf("kushal kandel");
+    printf("kushal kandel");
    
     
 }
