@@ -13,7 +13,7 @@ int fact(int n)
 }
 int main()
 {
-    int n,i,j;
+    int n,i,j; 
     printf("enter a number: ");
     scanf("%d",&n);
     int a=fact(n);
